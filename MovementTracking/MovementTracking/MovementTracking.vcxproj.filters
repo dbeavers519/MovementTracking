@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="mt">
+      <UniqueIdentifier>{33f62c4a-d087-456a-a48d-11d37122d78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mt\src">
+      <UniqueIdentifier>{9b1461d5-b599-446e-906f-83f8a1320676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mt\include">
+      <UniqueIdentifier>{5df0364e-6f7f-451e-9708-d613e69d9250}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Globals.h">
+      <Filter>mt\include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainHelper.h">
+      <Filter>mt\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>mt\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
